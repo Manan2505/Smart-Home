@@ -19,7 +19,7 @@ const Types = () => {
           <img src={card_image} className="w-64 mt-4" alt="Type A" />
           <h1 className="font-bold text-2xl text-white">TYPE A</h1>
           <p className="px-4 pb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni earum officiis praesentium iure iusto?
+          This mode provides essential security features for your home, including door and window sensors, motion detectors, and alerts for any unauthorized access.
           </p>
         </div>
 
@@ -28,7 +28,7 @@ const Types = () => {
           <img src={card_image2} className="w-48 mt-4" alt="Type B" />
           <h1 className="font-bold text-2xl text-white">TYPE B</h1>
           <p className="px-4 pb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni earum officiis praesentium iure iusto?
+          Upgrade your security with our Advanced Monitoring mode. This feature includes live camera feeds, remote access to your security system.
           </p>
         </div>
 
@@ -37,15 +37,14 @@ const Types = () => {
           <img src={card_image3} className="w-48 mt-4" alt="Type C" />
           <h1 className="font-bold text-2xl text-white">TYPE C</h1>
           <p className="px-4 pb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni earum officiis praesentium iure iusto?
+          With our Smart Automation mode, integrate your security system with smart home devices to create a synchronized environment.
           </p>
         </div>
       </div>
 
       {/* Description Section */}
       <p className="mt-10 text-lg font-medium text-center lg:text-left max-w-4xl mx-auto">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellat nihil quaerat necessitatibus molestias ipsam magnam, praesentium ab iste laudantium facere tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, libero? Similique illum eveniet beatae rerum optio velit.
-      </p>
+      Our security system integrates cutting-edge technology to ensure comprehensive protection and remote monitoring, keeping your home secure at all times. With features like motion detection, real-time alerts, and automated responses, you can have peace of mind knowing your home is always monitored.      </p>
     </div>
   );
 };
