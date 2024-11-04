@@ -1,17 +1,24 @@
-import React from 'react'
-import image from './images/fifth-section-img.png'
+import React from 'react';
+import image from './images/fifth-section-img.png';
+
 const About = () => {
   return (
-    <div className='flex lg:flex-row flex-col justify-evenly items-center lg:mt-16 mt-28'>
-      <div className=''>
-        <img src={image} width="350px" alt="" />
+    <div className="flex flex-col lg:flex-row justify-evenly items-center mt-28 lg:mt-16 px-6">
+      
+      {/* Image Section */}
+      <div className="mb-8 lg:mb-0 lg:mr-8">
+        <img src={image} width="350px" alt="About Us" />
       </div>
-      <div className='lg:max-w-[40%] space-y-5'>
-      <h1 className='text-center text-5xl font-bold tracking-wider'>ABOUT US</h1>
-        <p className='font-medium text-lg'>Company provides top-tier security services, ensuring comprehensive protection through advanced surveillance, access control, and highly trained personnel. Our customizable solutions cover residential, commercial, and industrial sectors, offering 24/7 monitoring and rapid response.</p>
+
+      {/* Text Section */}
+      <div className="text-center lg:text-left lg:max-w-[40%] space-y-5">
+        <h1 className="text-4xl lg:text-5xl font-bold tracking-wider text-white">ABOUT US</h1>
+        <p className="font-medium text-lg text-white">
+          Our company provides top-tier security services, ensuring comprehensive protection through advanced surveillance, access control, and highly trained personnel. We offer customizable solutions for residential, commercial, and industrial sectors with 24/7 monitoring and rapid response.
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
